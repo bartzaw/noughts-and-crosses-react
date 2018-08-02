@@ -60,5 +60,5 @@ class Game extends React.Component {
 
 ReactDOM.render(
   <Game />,
-  document.getElementByID('root')
-)
+  document.getElementById('root')
+);
