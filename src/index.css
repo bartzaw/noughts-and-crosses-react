@@ -5,6 +5,7 @@ body {
 
 ol, ul {
     padding-left: 20px;
+    list-style-type: none;
 }
 
 .board-row:after {
@@ -18,18 +19,20 @@ ol, ul {
 }
 
 .square {
-    background: #fff;
-    border: 1px solid #999;
+    border: 1px solid #fff;
     float: left;
-    font-size: 24px;
+    font-size: 128px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 128px;
+    width: 128px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    color: #fff;
+    background-image: url("./images/blackboard.jpg");
+    background-size: 100% 100%;
 }
 
 .square:focus {
@@ -47,4 +50,10 @@ ol, ul {
 
 .game-info {
     margin-left: 20px;
+    border: 2px solid #000;
+    padding: 25px;
+    height: 327px;
+    width: 198px;
+    line-height: 1.4;
 }
+
